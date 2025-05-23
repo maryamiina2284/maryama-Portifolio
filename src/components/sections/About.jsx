@@ -13,7 +13,7 @@ export const About = () => {
           <div className="flex justify-center animate__animated animate__fadeInLeft">
             <div className="relative w-80 h-auto rounded-3xl overflow-hidden shadow-2xl border-4 border-cyan-100 bg-white hover:shadow-cyan-200 transition-all duration-500">
               <img
-                src="/src/assets/reza.jpg"
+                src="/reza.jpg"
                 alt="Maryama Ahmed"
                 className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500"
               />
