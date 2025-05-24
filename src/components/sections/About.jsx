@@ -2,7 +2,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 import "animate.css";
 
 export const About = () => {
-  const frontendSkills = ["React", "Flutter", "JavaScript", "HTML5", "CSS3", "TailwindCSS"];
+  const frontendSkills = ["React", "Flutter", "JavaScript", "HTML5", "CSS3", "Bootstrap", "TailwindCSS"];
   const backendSkills = ["Node.js", "Python", "Flask", "C#", "Java", "PHP", "MySQL", "PostgreSQL", "Firebase"];
 
   return (
@@ -13,7 +13,7 @@ export const About = () => {
           <div className="flex justify-center animate__animated animate__fadeInLeft">
             <div className="relative w-80 h-auto rounded-3xl overflow-hidden shadow-2xl border-4 border-cyan-100 bg-white hover:shadow-cyan-200 transition-all duration-500">
               <img
-                src="/reza.jpg"
+                src="public/reza.jpg"
                 alt="Maryama Ahmed"
                 className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500"
               />
